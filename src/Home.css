@@ -1,0 +1,29 @@
+.home{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.home-row{
+    display: flex;
+    z-index: 80;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.home-img{
+    width: 100%;
+    margin-top: 20px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: -1;
+    margin-bottom: -130px;
+}
+
+@media only screen and (max-width: 700px) {
+    .home-img{
+        margin-top: 50px;
+        margin-bottom: -80px;
+    }
+}
