@@ -11,7 +11,7 @@ function Home() {
             src={background} 
             alt="background photo" 
         />
-        <div className="home-row">
+        <div className="home-row home-1">
             <Product 
                 id="9781627792127"
                 title="Six of Crows (Six of Crows #1)"

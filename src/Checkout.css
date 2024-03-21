@@ -26,6 +26,23 @@
 
 @media only screen and (max-width: 700px) {
     .checkout-img{
-        padding-top: 10px;
+        display: none;
     }
+
+    .checkout-container{
+        font-size: 1rem;
+        font-weight: 750;
+        margin-top: 50px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    .checkout-title{
+        font-size: 1rem;
+        font-weight: 750;
+        margin-left: 10px;
+        padding: 10px;
+        border-bottom: 1px solid #315296;
+    }
+
 }
